@@ -72,7 +72,7 @@ class Login(tk.Frame):
             print("Error cargando el logo:", e)
 
         
-        lbl_titulo = tk.Label(frame_login, text="Inicio de Sesión", font=("Arial", 16, "bold"), bg="white")
+        lbl_titulo = tk.Label(frame_login, text="18 de Diciembre, 2025", font=("Arial", 16, "bold"), bg="white")
         lbl_titulo.pack(pady=(8, 6))
 
         lbl_usuario = tk.Label(frame_login, text="Nombre de usuario", font=("Arial", 12), bg="white")
